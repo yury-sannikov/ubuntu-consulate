@@ -1,8 +1,6 @@
 FROM phusion/baseimage
 MAINTAINER Yuriy Sannikov <yury.sannikov@gmail.com>
 
-CMD ["/sbin/my_init"]
-
 RUN apt-get -y update
 RUN apt-get -y install unzip tar
 
